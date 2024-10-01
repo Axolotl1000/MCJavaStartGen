@@ -111,6 +111,13 @@ func main() {
 		flagsOption = " " + flags
 	}
 
+	fmt.Print("= = = = = = = = = = = = = = = = = = = =")
+	fmt.Print()
 	fmt.Printf(output, maxRam, minRam, flagsOption, mainFile, guiOption)
+	fmt.Print()
+	fmt.Print("= = = = = = = = = = = = = = = = = = = =")
+
+	fmt.Print("按下 Enter 結束...")
+	fmt.Scanln();
 
 }
